@@ -61,6 +61,8 @@ Initial Phase | Ending Phase | Wastage
 		      /     \
 		    |2|-----|3|
 		    	5%
+    
+
 
 
 To get a Complete Transition from 1 to 3 we can have two Possible paths.
