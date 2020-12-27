@@ -42,7 +42,7 @@
 
 ### Output
 
-    2
+    139.500
 
 ### Explanation
 
@@ -85,5 +85,5 @@ To get a Complete Transition from 1 to 3 we can have two Possible paths.
     * amount = 135.375 Pounds.
 
 * 1--> 3 Gives higher Amount
-* So Output is 135.375 Pounds
+* So Output is 139.5 Pounds
 
