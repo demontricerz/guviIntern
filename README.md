@@ -11,14 +11,10 @@
   </ol>
 </details>
 
+## Problem Statement
 
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Its Becoming the End of the EndGame , Our Superheros were Ending their Mission with End Game with Sacrifice of Mr Tony Stark. During the End Game Captain America's Shield has been Destroyed by Thanos. Mr Peter Parker an Young Scientist Discovered the formula for Vibranium (A Metal Used to Create Cap's Shield). To Create the Shield we Need to Produce Maximum Number of Final <stable> Phase of Vibranium. There will be a wastage of some P Percentage
+You will be given Number of Phases of Vibranium N.
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
