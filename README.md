@@ -54,6 +54,8 @@ Initial Phase | Ending Phase | Wastage
  1 |	3 | 7%
  2 |	3 | 5%
     # Visualisation
+    
+    
     		|1|
 		  5%   /   \  7%
 		      /     \
