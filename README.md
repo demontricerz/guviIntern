@@ -6,7 +6,7 @@
 >
 >During the End Game **Captain America's Shield has been Destroyed by Thanos**. Mr **Peter Parker** an Young Scientist Discovered the formula for **Vibranium** *(A Metal Used to Create Cap's Shield)*. 
 >
->To Create the Shield He Needs to Produce Maximum Number of **Stable Phase** of Vibranium. 
+>To Create the Shield He Needs to Produce Maximum Amount of **Stable Phase** of Vibranium. 
 >
 >**Stable Phase** is Nothing But the Final **N** th Phase.
 >
@@ -19,7 +19,7 @@
 
 * First Line of the Input Consists of an **Integer N** Denotes **Final Phase**, where Phases of Vibranium ranges from 1 to **N**.
 * Second Line of the Input Consists of an **Integer K** denotes **Amount of Phase 1 Vibranium** We have in **Pounds**.
-* Third Line of the Input Consists of an **Integer T** Denotes **No of Transisions** is Possible.
+* Third Line of the Input Consists of an **Integer T** Denotes **No of Transformations** is Possible.
 * Each Line of the Following T lines Have **3 Space Separated Integers**
   - **SP** Denotes **Starting Phase**,
   - **EP** Denotes **Ending Phase** ,
