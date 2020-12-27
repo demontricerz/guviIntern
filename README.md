@@ -35,7 +35,7 @@
 
     3                  # Number of Phases It Contains
     150                # we have 150 Pounds of Vibranium 
-    3                  # Number of Transitions Possible
+    3                  # Number of Transformations Possible
     1 2 5              # SP=1  EP=2 and WP=5%
     1 3 7              # SP=1  EP=3 and WP=7%
     2 3 5              # SP=2  EP=3 and WP=5%
@@ -65,24 +65,24 @@ Initial Phase | Ending Phase | Wastage
 
 
 
-To get a Complete Transition from 1 to 3 we can have two Possible paths.
+To get a Complete Transformation from 1 to 3 we can have two Possible paths.
 * 1 --> 3  
-    * amoont = 150 - 150*(7/100)
-    * amoont = 150 - 150*0.07
-    * amoont = 150 - 10.5
-    * **amount = 139.5 Pounds**
+    * Amount = 150 - 150*(7/100)
+    * Amount = 150 - 150*0.07
+    * Amount = 150 - 10.5
+    * **Amount = 139.5 Pounds**
 
 * 1--> 2 --> 3  
-    * For Transition 1 -> 2
-    * amoont = 150 - 150 * (5/100)
-    * amoont = 150 - 150 * 0.05
-    * amoont = 150 - 7.5
-    * amount = 142.5 Pounds
-    * For Transition 2 -> 3
-    * amoont = 142.5 - 142.5 * (5/100)
-    * amoont = 142.5 - 142.5 * 0.05
-    * amoont = 142.5 - 7.125
-    * **amount = 135.375 Pounds.**
+    * For Transformation 1 -> 2
+    * Amount = 150 - 150 * (5/100)
+    * Amount = 150 - 150 * 0.05
+    * Amount = 150 - 7.5
+    * Amount = 142.5 Pounds
+    * For Transformation 2 -> 3
+    * Amount = 142.5 - 142.5 * (5/100)
+    * Amount = 142.5 - 142.5 * 0.05
+    * Amount = 142.5 - 7.125
+    * **Amount = 135.375 Pounds.**
 
 * 1--> 3 Gives higher Amount
 * So Output is **139.5 Pounds**
