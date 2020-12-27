@@ -70,7 +70,7 @@ To get a Complete Transition from 1 to 3 we can have two Possible paths.
     * amoont = 150 - 150*(7/100)
     * amoont = 150 - 150*0.07
     * amoont = 150 - 10.5
-    * amount = 139.5 Pounds
+    * **amount = 139.5 Pounds**
 
 * 1--> 2 --> 3  
     * For Transition 1 -> 2
@@ -82,8 +82,8 @@ To get a Complete Transition from 1 to 3 we can have two Possible paths.
     * amoont = 142.5 - 142.5 * (5/100)
     * amoont = 142.5 - 142.5 * 0.05
     * amoont = 142.5 - 7.125
-    * amount = 135.375 Pounds.
+    * **amount = 135.375 Pounds.**
 
 * 1--> 3 Gives higher Amount
-* So Output is 139.5 Pounds
+* So Output is **139.5 Pounds**
 
