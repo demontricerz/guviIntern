@@ -89,7 +89,6 @@ To get a Complete Transformation from 1 to 3 we can have two Possible paths.
 ## Test Cases for Evaluations
 
 #### Case #1
-
     6
     14
     1 2 5
@@ -108,7 +107,6 @@ To get a Complete Transformation from 1 to 3 we can have two Possible paths.
     1 5 23
     
 #### Output #1
-
     12
     
 
@@ -127,3 +125,71 @@ To get a Complete Transformation from 1 to 3 we can have two Possible paths.
 
 #### Output #2
     90
+    
+#### Case #3
+    4
+    6
+    1 2 6
+    1 3 2
+    2 3 4
+    2 4 4
+    3 4 5
+    1 4 11
+
+#### Output #3
+    7
+    
+#### Case #4
+    3
+    3
+    1 2 4
+    1 3 5
+    2 3 0
+
+#### Output #4
+    4
+    
+#### Case #5
+    5
+    7
+    1 2 2
+    1 3 2
+    2 3 2
+    2 4 2
+    3 4 2
+    3 5 2
+    4 5 2
+    
+#### Output #5
+    4
+    
+    
+    
+## Solution (Python)
+    import collections
+    import heapq
+
+    def shortestPath(edges, source, sink):
+        # create a weighted DAG - {node:[(cost,neighbour), ...]}
+        graph = collections.defaultdict(list)
+        for l, r, c in edges:
+            graph[l].append((c,r))
+        # create a priority queue and hash set to store visited nodes
+        queue, visited = [(0, source, [])], set()
+        heapq.heapify(queue)
+        # traverse graph with BFS
+        while queue:
+            (cost, node, path) = heapq.heappop(queue)
+            # visit the node if it was not visited before
+            if node not in visited:
+                visited.add(node)
+                path = path + [node]
+                # hit the sink
+                if node == sink:
+                    return (cost, path)
+                # visit neighbours
+                for c, neighbour in graph[node]:
+                    if neighbour not in visited:
+                        heapq.heappush(queue, (cost+c, neighbour, path))
+        return float("inf")
+
