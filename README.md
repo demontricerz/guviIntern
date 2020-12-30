@@ -166,6 +166,7 @@ To get a Complete Transformation from 1 to 3 we can have two Possible paths.
     
     
 ## Solution (Python)
+    ```python
     import collections
     import heapq
 
@@ -192,4 +193,5 @@ To get a Complete Transformation from 1 to 3 we can have two Possible paths.
                     if neighbour not in visited:
                         heapq.heappush(queue, (cost+c, neighbour, path))
         return float("inf")
+	```
 
