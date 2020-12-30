@@ -54,7 +54,7 @@
 
 N=3
 
-Initial Phase | Ending Phase | Wastage
+Initial Phase | Ending Phase | Cost
 --- | --- | ---
  1 |	2 | 5
  1 |	3 | 7
