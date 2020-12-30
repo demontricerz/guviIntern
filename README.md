@@ -26,7 +26,7 @@
 
 # Output Format
 
-* Output needs to be in a Single line of **INTEGER** which is minimum cost required for refining Vibranium Phase **N**.
+* Output needs to be in a Single line of **INTEGER** which is minimum cost required for refining Vibranium Phase **N**. 
 
 
 # Constraints
@@ -86,3 +86,4 @@ To get a Complete Transformation from 1 to 3 we can have two Possible paths.
 * So Output is **7**
 
 
+## Test Cases for Evaluations
