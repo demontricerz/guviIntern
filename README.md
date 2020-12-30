@@ -4,45 +4,51 @@
 ## Problem Statement
 > Its Becoming the End of the **End Game** , Our Superheros were Ending their Mission of End Game with **Sacrifice of Mr Tony Stark**. 
 >
->During the End Game **Captain America's Shield has been Destroyed by Thanos**. Mr **Peter Parker** an Young Scientist Discovered the formula for **Vibranium** *(A Metal Used to Create Cap's Shield)*. 
+> During the End Game **Captain America's Shield has been Destroyed by Thanos**. Mr **Peter Parker** an Young Scientist Discovered the formula for **Vibranium** *(A Material Used to Create Cap's Shield)*. 
 >
->To Create the Shield He Needs to Produce Maximum Amount of **Stable Phase** of Vibranium. 
+> he has Numerous amount of **Phase 1** of Vibranium
 >
->**Stable Phase** is Nothing But the Final **N** th Phase.
+> To Create the Shield He Needs to Produce **N**th Phase of Vibranium. 
 >
->**Refination** is the Process where Vibranium in **Phase A** transforms to **Phase B** with some Wastage of **Percentage P**.
+> **Refination** is the Process where Vibranium in **Phase A** transforms to **Phase B** with some **Cost** of **C**.
 >
->Help Peter to Find the **Maximum pounds of Stable Phase of Vibranium** we produce While Refining from **Phase 1** to Phase **N**
+> Help Peter to Find the **Minimum Cost** which is enough to Refine from **Phase 1** to Phase **N**
 >
 
 # Input Format
 
 * First Line of the Input Consists of an **Integer N** Denotes **Final Phase**, where Phases of Vibranium ranges from 1 to **N**.
-* Second Line of the Input Consists of an **Integer K** denotes **Amount of Phase 1 Vibranium** We have in **Pounds**.
-* Third Line of the Input Consists of an **Integer T** Denotes **No of Transformations** is Possible.
-* Each Line of the Following T lines Have **3 Space Separated Integers**
+* Second Line of the Input Consists of an **Integer T** Denotes **No of Transformations** is Possible.
+* Next **T Lines** Have **3 Space Separated Integers**
   - **SP** Denotes **Starting Phase**,
   - **EP** Denotes **Ending Phase** ,
-  - **WP** Denotes **Waste Percentage**.
+  - **C** Denotes **C**.
 
 # Output Format
 
-* Output needs to be in Single line of **Floating Value Limited Upto 3 Decimal Points** Denoting the **Amount of Stable Vibranium Produced** with **K** Pounds of Phase 1 Vibranium.
+* Output needs to be in a Single line of **INTEGER** which is minimum cost required for refining Vibranium Phase **N**.
+
+
+# Constraints
+
+- **2 < N <= 100**
+- **N-1 < T < N^2**
+- **1 < SP,EP <= N**
+- **0 < C <= 10^6**
 
 
 # Sample Input and Output 1
 ### Input
 
     3                  # Number of Phases It Contains
-    150                # we have 150 Pounds of Vibranium 
     3                  # Number of Transformations Possible
-    1 2 5              # SP=1  EP=2 and WP=5%
-    1 3 7              # SP=1  EP=3 and WP=7%
-    2 3 5              # SP=2  EP=3 and WP=5%
+    1 2 5              # SP=1  EP=2 and C=5%
+    1 3 7              # SP=1  EP=3 and C=7%
+    2 3 5              # SP=2  EP=3 and C=5%
 
 ### Output
 
-    139.500
+    7
 
 ### Explanation
 
@@ -50,40 +56,33 @@ N=3
 
 Initial Phase | Ending Phase | Wastage
 --- | --- | ---
- 1 |	2 | 5%
- 1 |	3 | 7%
- 2 |	3 | 5%
+ 1 |	2 | 5
+ 1 |	3 | 7
+ 2 |	3 | 5
     # Visualisation
     
     
     		|1|
-		  5%   /   \  7%
+		  5    /   \  7
 		      /     \
 		    |2|-----|3|
-		    	5%
+		    	5
     
 
 
 
 To get a Complete Transformation from 1 to 3 we can have two Possible paths.
 * 1 --> 3  
-    * Amount = 150 - 150*(7/100)
-    * Amount = 150 - 150*0.07
-    * Amount = 150 - 10.5
-    * **Amount = 139.5 Pounds**
+    * **Total Cost = 7**
 
 * 1--> 2 --> 3  
     * For Transformation 1 -> 2
-    * Amount = 150 - 150 * (5/100)
-    * Amount = 150 - 150 * 0.05
-    * Amount = 150 - 7.5
-    * Amount = 142.5 Pounds
+    * Cost = 5
     * For Transformation 2 -> 3
-    * Amount = 142.5 - 142.5 * (5/100)
-    * Amount = 142.5 - 142.5 * 0.05
-    * Amount = 142.5 - 7.125
-    * **Amount = 135.375 Pounds.**
+    * Cost = 5
+    * **Total Cost = 10**
 
-* 1--> 3 Gives higher Amount
-* So Output is **139.5 Pounds**
+* 1--> 3 Give Minimum Cost
+* So Output is **7**
+
 
