@@ -22,7 +22,7 @@
 * Next **T Lines** Have **3 Space Separated Integers**
   - **SP** Denotes **Starting Phase**,
   - **EP** Denotes **Ending Phase** ,
-  - **C** Denotes **C**.
+  - **C** Denotes **Cost for transition**.
 
 # Output Format
 
