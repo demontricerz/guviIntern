@@ -87,3 +87,42 @@ To get a Complete Transformation from 1 to 3 we can have two Possible paths.
 
 
 ## Test Cases for Evaluations
+
+####Case #1
+
+    6
+    14
+    1 2 5
+    1 3 9
+    2 3 1
+    2 4 7
+    3 5 4
+    4 5 2
+    5 6 11
+    4 6 4
+    3 4 6
+    1 4 8
+    2 5 11
+    3 6 11
+    2 6 35
+    1 5 23
+    
+#### Output #1
+
+    12
+    
+#### Input #2
+    10
+    9
+    1 2 10
+    2 3 10
+    3 4 10
+    4 5 10
+    5 6 10
+    6 7 10
+    7 8 10
+    8 9 10
+    9 10 10
+
+###Output #2
+    90
