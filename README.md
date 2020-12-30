@@ -82,7 +82,7 @@ To get a Complete Transformation from 1 to 3 we can have two Possible paths.
     * Cost = 5
     * **Total Cost = 10**
 
-* 1--> 3 Give Minimum Cost
+* 1--> 3 Gives Minimum Cost
 * So Output is **7**
 
 
