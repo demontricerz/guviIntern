@@ -6,7 +6,7 @@
 >
 > During the End Game **Captain America's Shield has been Destroyed by Thanos**. Mr **Peter Parker** an Young Scientist Discovered the formula for **Vibranium** *(A Material Used to Create Cap's Shield)*. 
 >
-> he has Numerous amount of **Phase 1** of Vibranium
+> He has Numerous amount of **Phase 1** of Vibranium
 >
 > To Create the Shield He Needs to Produce **N**th Phase of Vibranium. 
 >
